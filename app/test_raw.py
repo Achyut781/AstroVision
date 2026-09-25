@@ -23,7 +23,7 @@ def load_raw_image(file_path):
             raise RuntimeError(f"Rawpy failed: {raw_error} | Imageio failed: {iio_error}")
 
 # Run the test
-file_path = "test.dng"  # Swap this back and forth with your iPhone DNG
+file_path = "test_image.dng"  
 
 try:
     print(f"Attempting to load {file_path}...")
