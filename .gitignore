@@ -1,4 +1,25 @@
+# Virtual Environment
 venv/
+env/
+ENV/
+
+# Python Caches
 __pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit Local Settings
+.streamlit/
+*.log
+
+# OS Generated Files
 .DS_Store
-data/
+Thumbs.db
+
+# Temporary Upload Files
+*.dng
+*.raw
+*.cr2
+*.nef
+*.arw
